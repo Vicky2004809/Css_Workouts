@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        position: relative;
+        width: 200px;
+        height: 100px;
+        background-color: lightblue;
+    }
+    div.absolute{
+        position: absolute;
+        left: 20px;
+        width: 100px;
+        height: 50px;
+        background-color: lightgreen;
+    }
+</style>
+<body>
+    <pre>
+         position :absolute
+        css  is used to specify the positioning method for an element. It can take the following values:
+        1. static: This is the default value. The element is positioned according to the normal flow of the document.
+        2. relative: The element is positioned relative to its normal position. You can use the top, right, bottom, and left properties to adjust its position.
+        3. absolute: The element is positioned relative to its nearest positioned ancestor (not static). If there is no such ancestor, it will be positioned relative to the initial containing block (usually the viewport).
+    </pre>
+    <div class="relative"> this div contain many paspictives</div>
+    <div class="absolute"> this div is absolutely positioned</div>
+</body>
+</html>

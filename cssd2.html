@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+div {
+  width: 300px; 
+  padding: 15px;
+  border: 25px solid navy;
+  margin-left: 30px;
+  box-sizing:content-box
+}
+.class {
+  width: 600px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+.container {
+  width: 400px;
+}
+
+button {
+  width: 33.33%;
+  box-sizing: border-box;
+  padding: 10px 20px 20px 50px;;
+
+}
+</style>
+</head>
+-------The formula for the total width of an element in the CSS Box Model ------
+---300 + 15 + 15 + 25 + 25 + 30 + 30---
+- 440-
+
+----The total width is calculated as-----
+---300 + 15 + 15 + 25 + 25 + 30 + 0 = 410px----
+
+----Given the CSS---
+---50 + 15 + 15 + 5 + 5---
+--90px--
+
+<body>
+    <div >
+        <p>This is a box with a green border, padding, and width.</p>
+    </div>
+
+    <div class="class">
+        <p>This is a box with a black border, padding, and width.</p>
+
+<div class="container">
+  <button>Button 1</button>
+  <button>Button 2</button>
+  <button>Button 3</button>
+</div>
+
+
+
+</body>
+</html>
